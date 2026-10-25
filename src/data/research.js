@@ -4,7 +4,7 @@ import { paperLink, posterLink } from './links.js';
 export const RESEARCH = [
 	{
 		title: 'Enhancing Accessibility of a Web-based Scheme IDE to Improve Inclusion in Computing',
-		meta: 'First author · TAPIA 2026',
+		meta: 'First author · TAPIA 2026 · MINK-WIC 2025',
 		formats: ['paper', 'poster'],
 		summary: 'Making the Scamper IDE accessible to blind, low-vision, and neurodivergent learners.',
 		links: [paperLink('./papers/tapia-2026.pdf'), posterLink('./posters/tapia-2026.pdf')],
