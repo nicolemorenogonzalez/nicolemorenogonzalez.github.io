@@ -10,6 +10,8 @@ export const NEWS = [
 	{ date: '2026-04', label: 'Apr 2026', text: 'A first-author poster submission was accepted to TAPIA 2026, and I received the TAPIA 2026 Student Travel Scholarship.' },
 	{ date: '2026-02', label: 'Feb 2026', text: 'Three papers presented at SIGCSE TS 2026.' },
 	{ date: '2025-11', label: 'Nov 2025', text: 'Two short papers accepted at SIGCSE TS 2026, one of them first-authored. See the Research tab!' },
+	{ date: '2025-10', label: 'Oct 2025', text: 'I presented a poster on Accessibility at MINK-WIC 2025.' },
+	{ date: '2025-09', label: 'Sep 2025', text: 'A first-authored poster abstract was accepted to MINK-WIC 2025, my very first computing conference!' },
 	{ date: '2025-09', label: 'Sep 2025', text: 'One long paper accepted at SIGCSE TS 2026.' },
 	{ date: '2025-05', label: 'May 2025', text: 'Began accessibility research at the Glimmer Research Lab.' },
 ];
