@@ -17,7 +17,7 @@ export const EXPERIENCE = [
 		summary: 'Built 6+ BMC Helix dashboards for 4+ teams and automated recurring tasks and reports, saving an estimated 42+ hours a year.',
 	},
 	{
-		title: 'Computer Science Teaching Assistant',
+		title: 'Computer Science Mentor (Teaching Assistant)',
 		meta: 'Grinnell College · Feb 2026 – May 2026',
 		summary: 'Mentored 60+ students in C programming through weekly help sessions on debugging, Git, and problem solving.',
 	},
@@ -42,12 +42,12 @@ export const EXPERIENCE = [
 		summary: 'Tutored 20+ students a week in Scheme, C, and Java with personalized teaching strategies.',
 	},
 	{
-		title: 'Elementary School Teacher Assistant',
+		title: 'Elementary School Mentor (Teaching Assistant)',
 		meta: 'Grinnell, Iowa · Feb 2024 – Oct 2025',
 		summary: 'Taught geometry to 20+ young girls and introduced programming by building robots with block code.',
 	},
 	{
-		title: 'Applied Statistics Teaching Assistant',
+		title: 'Applied Statistics Mentor (Teaching Assistant)',
 		meta: 'Grinnell College · Jan 2025 – May 2025',
 		summary: 'Mentored 20+ students a week in R for applied statistics.',
 	},
