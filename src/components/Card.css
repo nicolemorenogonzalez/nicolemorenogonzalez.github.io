@@ -26,3 +26,7 @@
 
 /* Status text where the links would be, such as "In Progress..." (not a link, so no underline or arrow) */
 .card-status { color: var(--navy-soft); font-style: italic; font-weight: 600; }
+
+/* Status text with a link beside it; the card's last paragraph rule does not reach inside the row */
+.status-row { align-items: baseline; }
+.status-row .card-status { margin: 0; }

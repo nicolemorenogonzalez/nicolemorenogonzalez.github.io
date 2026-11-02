@@ -6,12 +6,13 @@
 //   summary  short description
 //   links    [{ href, label }] shown side by side, left to right (see data/links.js)
 //   status   plain text shown where the links go, for work with nothing to link to yet ("In Progress...")
+//   statusLink  { href, label } a link shown to the right of the status text
 
 import ExternalLink from './ExternalLink.jsx';
 import Badges from './Badges.jsx';
 import './Card.css';
 
-export default function Card({ title, meta, formats, summary, links, status }) {
+export default function Card({ title, meta, formats, summary, links, status, statusLink }) {
 	const metaLine = meta && <p className="meta">{meta}</p>;
 
 	return (
@@ -26,7 +27,12 @@ export default function Card({ title, meta, formats, summary, links, status }) {
 					))}
 				</div>
 			)}
-			{status && <p className="card-status">{status}</p>}
+			{status && (
+				<div className="card-links status-row">
+					<p className="card-status">{status}</p>
+					{statusLink && <ExternalLink href={statusLink.href} context={title}>{statusLink.label}</ExternalLink>}
+				</div>
+			)}
 		</article>
 	);
 }

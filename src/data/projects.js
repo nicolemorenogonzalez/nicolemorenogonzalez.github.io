@@ -7,6 +7,7 @@ export const PROJECTS = [
 		meta: 'CSC 324 Project',
 		summary: 'A rideshare iOS app where drivers post rides and riders request seats, built with Swift and Supabase.',
 		status: 'In Progress...',
+		statusLink: { href: './competencies.html', label: 'Mastered Competencies' },
 	},
 	{
 		title: 'Multi-Agent RL for Autonomous Driving',
